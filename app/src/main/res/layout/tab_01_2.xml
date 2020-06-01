@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<TextView-->
+        <!--android:layout_weight="1"-->
+        <!--android:textSize="25sp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="微信界面"-->
+        <!--android:id="@+id/textView5" />-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/dada" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="190dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="爸爸"
+                    android:textSize="23sp"
+                    android:id="@+id/textView6"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="多喝水！早点休息。"
+                    android:textSize="18sp"
+                    android:id="@+id/textView9" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="昨天"
+                android:textSize="15sp"
+                android:id="@+id/textView10" />
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"
+                android:id="@+id/mom"
+                android:src="@drawable/mom" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="190dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="妈妈"
+                    android:textSize="23sp"
+                    android:id="@+id/textView2_1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="什么情况？"
+                    android:textSize="18sp"
+                    android:id="@+id/textView2_2" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="上午7:21"
+                android:textSize="15sp"
+                android:id="@+id/textView2_3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"
+                android:id="@+id/fami"
+                android:src="@drawable/fami" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="190dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="自家人"
+                    android:textSize="23sp"
+                    android:id="@+id/textView3_1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="[微信红包]恭喜发.."
+                    android:textSize="18sp"
+                    android:id="@+id/textView3_2" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="下午1:21"
+                android:textSize="15sp"
+                android:id="@+id/textView3_3" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
